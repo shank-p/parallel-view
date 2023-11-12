@@ -1,1 +1,29 @@
 /target
+
+
+## web ignore
+
+# Logs
+web/log0
+web/*.lo0
+web/npm-debug.log0
+web/yarn-debug.log0
+web/yarn-error.log0
+web/pnpm-debug.log0
+web/lerna-debug.log0
+
+web/node_modules
+web/dist
+web/dist-ssr
+web/*.local
+
+# Editor directories and files
+web/.vscode/
+!web/.vscode/extensions.json
+web/.idea
+web/.DS_Store
+web/*.suo
+web/*.ntvs*
+web/*.njsproj
+web/*.sln
+web/*.sw?
